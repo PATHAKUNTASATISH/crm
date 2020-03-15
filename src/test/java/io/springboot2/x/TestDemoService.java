@@ -10,7 +10,7 @@ public class TestDemoService {
 	@Test
 	public void test() {
 	 DemoService service=new DemoService();
-	 Assert.assertEquals("hello", service.sayHello());
+	 Assert.assertEquals("hello", service.sayHi());
 	}
     
 }
